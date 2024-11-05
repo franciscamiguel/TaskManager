@@ -1,0 +1,6 @@
+CREATE PROCEDURE usp_DeleteTask
+    @Id INT
+AS
+BEGIN
+DELETE FROM Tasks WHERE Id = @Id;
+END;

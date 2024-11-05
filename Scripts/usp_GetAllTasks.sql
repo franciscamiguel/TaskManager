@@ -1,0 +1,5 @@
+CREATE PROCEDURE usp_GetAllTasks
+    AS
+BEGIN
+SELECT * FROM Tasks;
+END;

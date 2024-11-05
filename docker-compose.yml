@@ -1,0 +1,6 @@
+﻿services:
+  gestaotarefas.api:
+    image: gestaotarefas.api
+    build:
+      context: .
+      dockerfile: src/GestaoTarefas.Api/Dockerfile
